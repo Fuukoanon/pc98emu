@@ -2,15 +2,15 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "build with batch",
+			"label": "build",
 			"type": "shell",
 			"command": "${workspaceFolder}\\build.bat",
 			"group": {
 				"kind": "build",
-				"isDefault": true
+				"isDefault": false
 			},
 			"problemMatcher": [
-				"$g++"
+				"$gcc"
 			],
 			"detail": "Runs the build.bat script to compile the project."
 		}
