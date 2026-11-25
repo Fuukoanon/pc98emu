@@ -14,7 +14,7 @@ namespace Memory
 
         u16 read16(const u32 addr);
         void write16(const u32 addr, const u16 val);
-        const u8 *Memory::get() noexcept;
+        const u8 *get() noexcept;
         size_t size() noexcept;
 
     private:

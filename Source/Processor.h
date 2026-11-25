@@ -42,6 +42,5 @@ namespace Processor
         u64 cycles_total;
 
         CPU();
-        ~CPU();
     };
 }
