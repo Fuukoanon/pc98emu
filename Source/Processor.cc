@@ -1,5 +1,6 @@
 #include "Processor.h"
 #include "Types.h"
+#include "Config.h"
 
 namespace Processor
 {
